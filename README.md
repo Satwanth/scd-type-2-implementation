@@ -6,8 +6,7 @@ This project demonstrates a robust implementation of **Slowly Changing Dimension
 In Data Engineering, managing how data changes over time is critical. SCD Type 2 allows us to maintain a full history of changes by adding new records for updates while marking previous records as inactive. This ensures that historical reporting remains accurate even as dimension attributes change.
 
 ## 🛠️ Tech Stack
-* **Platform:** Databricks
-* **Storage:** Delta Lake
+* **Platform:** Databricks with Delta Lake
 * **Language:** SQL (Spark SQL)
 * **Concepts:** Dimensional Modeling, ACID Transactions, History Preservation
 
